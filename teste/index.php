@@ -6,7 +6,7 @@ $encontrou = false;
 while(!$encontrou){
     $hash = md5($num);
 //    echo $num." - ".$hash."<br>";
-    if(substr($hash, 0,7) == "aaaaaaa" || $num>=40000000){
+    if(substr($hash, 0,7) == "aaaaaaa" || $num>=120000000){
         break;
     }
     $num++;
